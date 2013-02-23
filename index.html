@@ -4,8 +4,8 @@
      <title>CSV Analyzer</title>
      <link href="global.css" rel="stylesheet" type="text/css">
 
-     <script type="text/javascript" src="../lib/underscore/underscore.js"></script>
-     <script type="text/javascript" src="../lib/jquery/starterkit/jquery.js"></script>
+     <script type="text/javascript" src="../lib/underscore.js"></script>
+     <script type="text/javascript" src="../lib/jquery.js"></script>
      <script type="text/javascript" src="csv.js"></script>
   </head>
   <body>
@@ -19,7 +19,7 @@
         <td><textarea autofocus cols = "80" rows = "5" id="original"></textarea></td> 
       </tr>
     </table>
-    <button type="button">table:</button><br>
+    <button type="button" onclick="calculate();">table:</button><br>
     <span class="output" id="finaltable"></span>
   </body>
 </html>
